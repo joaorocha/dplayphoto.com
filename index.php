@@ -347,7 +347,7 @@
                 <li><a id="link-contact" href="#contact">Contato</a></li>
             </ul>
             <div class="redes">
-                <a href="https://www.facebook.com/davini.photos" target="_blank"><img src="img/icon-facebook.png"></a>
+                <a href="https://www.facebook.com/dplayphoto" target="_blank"><img src="img/icon-facebook.png"></a>
                 <a href="http://instagram.com/dplayfotografia" target="_blank"><img src="img/icon-instagram.png"></a>
                 <a href=""><img src="img/icon-google.png"></a>
             </div>
