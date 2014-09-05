@@ -4,7 +4,15 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Dplay - FOTOGRAFIA</title>
+    <meta name="description" content="Site portfólio da fotógrafa Dávini Ribeiro.">
+    <meta name="keywords" content="Fotografia, fotografia, Photo, Photo, Davini, davini, Portfolio, portfolio, DPlay, dplay">
+    <meta name="robot" content="index,follow">
+    <meta name="author" content="João Victor Rocha Melo">
+
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+
+    <title>DPlay - FOTOGRAFIA</title>
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -117,7 +125,7 @@
                     <!-- Place somewhere in the <body> of your page -->
                     <div class="fancybox1">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 minor-padding">
                                 <a class="fancybox" rel="gallery1" href="previa/1.jpg" title="">
                                     <div class="caption">
                                         <h3 class="caption-header text-center">Kamila e Sérgio</h3>
@@ -141,7 +149,7 @@
                                 <a class="fancybox" rel="gallery1" href="previa/7.jpg" title="">
                                 </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 minor-padding">
                                 <a class="fancybox" rel="gallery2" href="previa/8.jpg" title="">
                                     <div class="caption">
                                         <h3 class="caption-header text-center">Amanda e Euclides</h3>
@@ -159,7 +167,7 @@
                                 <a class="fancybox" rel="gallery2" href="previa/11.jpg" title="">
                                 </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 minor-padding">
                                 <a class="fancybox" rel="gallery3" href="previa/1.jpg" title="Westfield Waterfalls - Middletown CT Lower (Graham_CS)">
                                     <div class="caption"></div>
                                     <img class="img-responsive" src="previa/1.jpg" alt="" />
@@ -196,7 +204,7 @@
                     <!-- Place somewhere in the <body> of your page -->
                     <div class="fancybox1">
                         <div class="row">
-                            <div class="col-md-4">
+                            <div class="col-md-4 minor-padding">
                                 <a class="fancybox" rel="gallery4" href="ensaio/1.jpg" title="">
                                     <div class="caption">
                                         <h3 class="caption-header text-center">Arthur</h3>
@@ -220,7 +228,7 @@
                                 <a class="fancybox" rel="gallery4" href="ensaio/7.jpg" title="">
                                 </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 minor-padding">
                                 <a class="fancybox" rel="gallery5" href="ensaio/8.jpg" title="">
                                     <div class="caption">
                                         <h3 class="caption-header text-center">Pietro</h3>
@@ -242,7 +250,7 @@
                                 <a class="fancybox" rel="gallery5" href="ensaio/13.jpg" title="">
                                 </a>
                             </div>
-                            <div class="col-md-4">
+                            <div class="col-md-4 minor-padding">
                                 <a class="fancybox" rel="gallery3" href="previa/1.jpg" title="Westfield Waterfalls - Middletown CT Lower (Graham_CS)">
                                     <div class="caption"></div>
                                     <img class="img-responsive" src="previa/1.jpg" alt="" />
@@ -338,8 +346,8 @@
                 <li><a id="link-contact" href="#contact">Contato</a></li>
             </ul>
             <div class="redes">
-                <a href="https://www.facebook.com/davini.photos"><img src="img/icon-facebook.png"></a>
-                <a href="http://instagram.com/dplayfotografia"><img src="img/icon-instagram.png"></a>
+                <a href="https://www.facebook.com/davini.photos" target="_blank"><img src="img/icon-facebook.png"></a>
+                <a href="http://instagram.com/dplayfotografia" target="_blank"><img src="img/icon-instagram.png"></a>
                 <a href=""><img src="img/icon-google.png"></a>
             </div>
             <div class="grave">
