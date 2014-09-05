@@ -1,11 +1,12 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Site portfólio da fotógrafa Dávini Ribeiro.">
-    <meta name="keywords" content="Fotografia, fotografia, Photo, Photo, Davini, davini, Portfolio, portfolio, DPlay, dplay">
+    <meta name="keywords" content="Fotografia, fotografia, Photo, Photo, Davini, davini,
+     Portfolio, portfolio, DPlay, dplay, DPlayphoto, dplayphoto">
     <meta name="robot" content="index,follow">
     <meta name="author" content="João Victor Rocha Melo">
 
@@ -349,9 +350,6 @@
                 <a href="https://www.facebook.com/davini.photos" target="_blank"><img src="img/icon-facebook.png"></a>
                 <a href="http://instagram.com/dplayfotografia" target="_blank"><img src="img/icon-instagram.png"></a>
                 <a href=""><img src="img/icon-google.png"></a>
-            </div>
-            <div class="grave">
-                <p>Desenvolvido por Graveyard Studios</p>
             </div>
         </div>
 
