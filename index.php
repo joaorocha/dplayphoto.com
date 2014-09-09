@@ -30,7 +30,7 @@
     <![endif]-->
 
     </head>
-    <body onload="location.href='#home'">
+    <body onload="location.href='#home'; stopLoading()">
         <!-- Loading -->
         <div id="Loading" class="loading-panel">
             <div class="content">
@@ -383,8 +383,10 @@
                     openEffect  : 'elastic',
                     closeEffect : 'elastic'
                 });
-                $("#Loading").hide();
             });
+            function stopLoading() {
+                $("#Loading").hide();
+            };
         </script>
     </body>
 </html>
