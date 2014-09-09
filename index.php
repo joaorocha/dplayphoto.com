@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-  <head>
+    <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -25,12 +25,30 @@
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
 
-  </head>
-  <body>        
+    </head>
+    <body onload="location.href='#home'; stopLoading()">
+        <!-- Loading -->
+        <div id="Loading" class="loading-panel">
+            <div class="content">
+                <div class="loading-content">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <div class="spinner">
+                                <div class="bounce1"></div>
+                                <div class="bounce2"></div>
+                                <div class="bounce3"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- /Loading -->
+
         <!-- Home -->
         <div id="home" class="panel1">
             <div class="content">
@@ -44,7 +62,7 @@
             </div>
         </div>
         <!-- /Home -->
-        
+
         <!-- Galeria -->
         <div id="portfolio" class="panel1">
             <div class="content">
@@ -57,7 +75,7 @@
                     <div class="row">
                         <div class="col-md-12">
                             <section class="main">
-            
+
                                 <ul class="ch-grid">
                                     <li>
                                         <div class="ch-item ch-img-1">
@@ -70,22 +88,22 @@
                                         <div class="ch-item ch-img-2">
                                             <div class="ch-info">
                                                 <a href="#casamentos"><h3 style="margin-left: 13px;">Casamentos</h3></a>
-                                                
+
                                             </div>
                                         </div>
                                     </li>
-                                    
+
                                 </ul>
-                                
+
                             </section>
                         </div>
-                        
+
                     </div>
 
                     <div class="row">
                         <div class="col-md-12">
                             <section class="main">
-            
+
                                 <ul class="ch-grid">
                                     <li>
                                         <div class="ch-item ch-img-3">
@@ -109,7 +127,7 @@
                                         </div>
                                     </li>
                                 </ul>
-                                
+
                             </section>
                         </div>
                     </div>
@@ -190,12 +208,12 @@
 
         <div id="#casamentos" class="panel1">
             <div class="content">
-                
+
             </div>
         </div>
         <div id="#eventos" class="panel1">
             <div class="content">
-                
+
             </div>
         </div>
         <div id="ensaios" class="panel1">
@@ -272,7 +290,7 @@
         </div>
         <div id="#projetos" class="panel1">
             <div class="content">
-                
+
             </div>
         </div>
         <!--GALERIAS-->
@@ -282,7 +300,7 @@
             <div class="content">
                 <h1 class="text-center section-title">SOBRE</h1>
                 <div class="about-content">
-                    
+
                     <div class="row">
                         <div class="col-md-4">
                             <img src="img/sobre.jpg" class="img-responsive">
@@ -290,11 +308,11 @@
                         <div class="col-md-6">
                             <p>Sobre Dávini Ribeiro</p>
                             <p>Play é como muitos amigos costumam me chamar e é assim que quero ser reconhecida.
-                            O 'D' vem do meu nome real que é Dávini Ribeiro Alves de Lima e, assim, DPlay agora 
+                            O 'D' vem do meu nome real que é Dávini Ribeiro Alves de Lima e, assim, DPlay agora
                             é minha marca. E foi, como sempre, baseada  no amor que decidi usar o nome que amo
                             ser chamada.</p>
                             <p>Nasci, cresci e resido no Distrito Federal. Aqui estudei, fiz amigos e tenho minha
-                            grande família espalhada. Nos tão esperados 15 anos, para as meninas, o meu pedido de 
+                            grande família espalhada. Nos tão esperados 15 anos, para as meninas, o meu pedido de
                             presente foi uma câmera. Sempre fui apaixonada por registrar e ser registrada e descobri
                             a mágica e o quanto é encantador fazer não só um registro mas arte.</p>
                             <p>Hoje curso o Ensino Superior em Fotografia no IESB-DF.</p>
@@ -305,7 +323,7 @@
             </div>
         </div>
         <!-- /Sobre -->
-        
+
         <!-- Contact -->
         <div id="contact" class="panel1">
             <div class="content">
@@ -332,7 +350,7 @@
                         </div>
                     </div>
                 </div>
-                
+
             </div>
         </div>
         <!-- /Contact -->
@@ -354,18 +372,21 @@
         </div>
 
 
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="js/jquery.fancybox.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $(".fancybox").fancybox({
-                openEffect  : 'elastic',
-                closeEffect : 'elastic'
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        <script src="js/bootstrap.min.js"></script>
+        <script type="text/javascript" src="js/jquery.fancybox.js"></script>
+        <script type="text/javascript">
+            $(document).ready(function() {
+                $(".fancybox").fancybox({
+                    openEffect  : 'elastic',
+                    closeEffect : 'elastic'
+                });
             });
-        });
-    </script>
-  </body>
+            function stopLoading() {
+                $("#Loading").hide();
+            };
+        </script>
+    </body>
 </html>
