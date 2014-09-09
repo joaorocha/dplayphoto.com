@@ -383,8 +383,8 @@
                     openEffect  : 'elastic',
                     closeEffect : 'elastic'
                 });
+                $("#Loading").hide();
             });
-            $("#Loading").hide();
         </script>
     </body>
 </html>
